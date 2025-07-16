@@ -72,7 +72,7 @@ export const ${pascalEntity}Controller = {
 
 export const createServiceContent = (pascalEntity:string, entity:string)  => {
     return `
-import { prisma } from '@orm/db';
+import {prisma} from '@orm/prisma/db';
 
 export class ${pascalEntity}Service {
   async findAll(page = 1, limit = 10) {

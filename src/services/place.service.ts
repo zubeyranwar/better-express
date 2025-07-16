@@ -1,4 +1,4 @@
-import { prisma } from '@orm/db';
+import {prisma} from '@orm/prisma/db';
 
 export class PlaceService {
   async findAll(page = 1, limit = 10) {
