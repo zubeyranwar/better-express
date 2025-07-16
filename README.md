@@ -9,26 +9,7 @@ A scalable, auto-routable Express backend framework with support for:
 - ✅ Faker-based mock API generation  
 - ✅ Inspired by NestJS structure (Controllers, Services, Schemas)
 
-> Designed for projects that want NestJS-like structure but with full control using **Express + TypeScript**.
-
 ---
-
-## 📦 Installation
-
-```bash
-bun install
-# or
-npm install
-```
-
-Make sure you have TypeScript + ts-node installed globally if using CLI directly:
-
-```bash
-npm install -g ts-node typescript
-```
-
----
-
 ## 🔧 Project Setup
 
 Run the following command to scaffold a new project structure:
@@ -237,4 +218,4 @@ To collaborate:
 4. Use `generate crud <name>` to scaffold structured components.
 5. PRs welcome!
 
-Happy hacking 🎯
+Pissss ✌️
