@@ -207,7 +207,7 @@ function scaffoldProject() {
         console.log('✅ Created example route: src/routes/hello.ts');
     }
 
-    console.log('🚀 backend-kit project initialized!');
+    console.log('🚀 better-express project initialized!');
 }
 
 function generateCrud(args: string[]) {
@@ -314,7 +314,7 @@ function main() {
     }else if (cmd === 'mock') {
         startMockServer(args);
     } else {
-        console.log('🛠 backend-kit CLI');
+        console.log('🛠 better-express CLI');
         console.log('Usage:');
         console.log('  ts-node better-express.ts init');
         console.log('  ts-node better-express.ts generate crud <entity> [--schema=path] [--export=name] [--no-validation]');

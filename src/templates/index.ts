@@ -8,7 +8,7 @@ export default defineRoute({
   method: 'GET',
   path: '/hello',
   handler: (req, res) => {
-    res.json({ message: 'Hello from backend-kit!' });
+    res.json({ message: 'Hello from better-express!' });
   },
 });`
 
@@ -117,7 +117,7 @@ export class ${pascalEntity}Service {
 
 export const createRouteContent = (pascalEntity:string, flags:Flag, entity:string) => {
     return `
-import { defineRoute } from '@/backend-kit';
+import { defineRoute } from '@/better-express';
 ${flags.noValidation ? '' : `import { z } from 'zod';`}
 ${flags.schema ? `import { ${flags.export} } from '${flags.schema}';` : ""}
 import { ${pascalEntity}Controller } from '@controllers/${entity}.controller';
