@@ -13,7 +13,7 @@
       "@services/*": ["src/services/*"],
       "@controllers/*": ["src/controllers/*"],
       "@schemas/*": ["src/schemas/*"],
-      "@orm/*": ["orm/*"]
+      "@orm/*": ["src/orm/*"],
     },
     "outDir": "dist",
     "rootDir": "src",
