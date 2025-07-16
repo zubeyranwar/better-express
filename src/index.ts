@@ -1,4 +1,4 @@
-import {createApp, registerRoutes} from '../better-express';
+import {createApp, registerRoutes} from '@/better-express';
 import {NextFunction} from "express";
 
 const app = createApp();
